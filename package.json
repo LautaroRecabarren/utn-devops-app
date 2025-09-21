@@ -6,10 +6,17 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "node --watch src/index.js",
-    "test": "node --test"
+    "test": "jest --ci"
   },
   "dependencies": {
     "express": "^4.19.2",
     "pg": "^8.12.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^30.1.3"
   }
 }
